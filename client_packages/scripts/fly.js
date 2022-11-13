@@ -13,10 +13,6 @@ global.fly = {
 };
 global.gameplayCam = mp.cameras.new('gameplay');
 
-mp.game.graphics.notify('~r~Fly script loaded!');
-mp.game.graphics.notify('~r~F5~w~ - enable/disable\n~r~F5+Space~w~ - disable without warping to ground\n~r~W/A/S/D/Space/LCtrl~w~ - move');
-mp.game.graphics.notify('~r~/savecam~w~ - save Camera position.');
-
 let direction = null;
 let coords = null;
 
@@ -36,7 +32,7 @@ mp.events.add('render', () => {
     direction = global.gameplayCam.getDirection();
     coords = global.gameplayCam.getCoord();
 
-    mp.game.graphics.drawText(`Coords: ${JSON.stringify(coords)}`, [0.5, 0.005], {
+/*    mp.game.graphics.drawText(`Coords: ${JSON.stringify(coords)}`, [0.5, 0.005], {
         font: 0,
         color: [255, 255, 255, 185],
         scale: [0.3, 0.3],
@@ -47,7 +43,7 @@ mp.events.add('render', () => {
         color: [255, 255, 255, 185],
         scale: [0.3, 0.3],
         outline: true,
-    });
+    });*/
 
     if (controls.isControlJustPressed(0, controlsIds.F5)) {
         fly.flying = !fly.flying;
