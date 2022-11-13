@@ -1,5 +1,8 @@
 mp.game.audio.setAudioFlag("LoadMPData", true);
 mp.game.audio.requestScriptAudioBank("DLC_BIKER/BKR_KQ_01", false);
+global.adminGodMode = false;
+
+// require('./scripts/damageHandler/index')
 
 const toLoad = [
     "lib/scaleform_messages",
@@ -10,8 +13,9 @@ const toLoad = [
     "scripts/infiniteAmmo",
     "scripts/gameArea",
     "scripts/fly",
-    "scripts/customRega"
+    "scripts/nameTags",
 ];
+
 
 toLoad.forEach((file) => {
     try {
