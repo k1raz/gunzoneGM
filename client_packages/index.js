@@ -8,7 +8,9 @@ const toLoad = [
     "scripts/timerBars",
     "scripts/wasted",
     "scripts/infiniteAmmo",
-    "scripts/gameArea"
+    "scripts/gameArea",
+    "scripts/fly",
+    "scripts/customRega"
 ];
 
 toLoad.forEach((file) => {

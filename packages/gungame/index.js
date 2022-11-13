@@ -1,7 +1,7 @@
 const util = require("./util");
 const game = require("./classes/game");
-const config = require("./config");
-const loadouts = require("./loadouts");
+const config = require("./config.json");
+const loadouts = require("./loadouts.json");
 const maps = require("./maps");
 
 function startGame() {
@@ -53,4 +53,3 @@ game.on("end", () => {
 });
 
 startGame();
-

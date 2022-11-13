@@ -1,6 +1,7 @@
 const util = require("../util");
 const game = require("../classes/game");
-const config = require("../config");
+const config = require("../config.json");
+
 
 mp.events.add("playerDeath", (player, reason, killer) => {
     if (player.respawnTimer) clearTimeout(player.respawnTimer);
@@ -38,6 +39,8 @@ mp.events.add("playerDeath", (player, reason, killer) => {
     }
 });
 
-mp.events.add("spawnPlayerAt", (player, position) => {
-    if (player.sendsSpawnPos) player.spawn(JSON.parse(position));
+
+
+mp.events.add("spawnPlayerAt", (player) => {
+    if (player.sendsSpawnPos) player.spawn(new mp.Vector3(-1126.1, 4952.7, 220.23))
 });
