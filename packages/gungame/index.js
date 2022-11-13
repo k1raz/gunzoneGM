@@ -17,6 +17,7 @@ util.loadFiles("events");
 // game events
 let gameTimer = null;
 
+
 game.on("start", () => {
     if (gameTimer) {
         clearTimeout(gameTimer);

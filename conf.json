@@ -1,9 +1,14 @@
 {
-	"maxplayers" : 100,
-	"name" : "RAGE:MP Unofficial server", 
-	"gamemode" : "freeroam", 
-	"stream-distance" : 500.0,
+	"maxplayers" : 228,
+	"name" : "dolbaebka dm",
+	"gamemode" : "gunzone",
+	"stream-distance" : 250,
 	"announce" : false,
 	"csharp" : "disabled",
+	"nodejs" : true,
+	"enable-http-security" : true,
+	"disallow-multiple-connections-per-ip": true,
+	"url": "discord.gg/welson",
+	"language": "ukraine",
 	"port": 22005
 }
