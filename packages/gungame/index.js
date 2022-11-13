@@ -53,3 +53,4 @@ game.on("end", () => {
 });
 
 startGame();
+
