@@ -5,7 +5,7 @@
 	"stream-distance" : 250,
 	"announce" : false,
 	"csharp" : "disabled",
-	"nodejs" : true,
+	"nodejs" : "enabled",
 	"enable-http-security" : true,
 	"disallow-multiple-connections-per-ip": true,
 	"url": "discord.gg/welson",

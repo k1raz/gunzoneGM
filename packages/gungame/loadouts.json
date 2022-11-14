@@ -3,7 +3,7 @@
     {
       "Weapon": "WEAPON_REVOLVER",
       "Name": "Heavy Revolver",
-      "KillsForNext": 15
+      "KillsForNext": 5
     },
     {
       "Weapon": "WEAPON_HEAVYSNIPER_mk2",
@@ -35,7 +35,7 @@
     {
       "Weapon": "WEAPON_REVOLVER",
       "Name": "Heavy Revolver",
-      "KillsForNext": 15
+      "KillsForNext": 5
     },
     {
       "Weapon": "WEAPON_HEAVYSNIPER_mk2",
@@ -67,7 +67,7 @@
     {
       "Weapon": "WEAPON_REVOLVER",
       "Name": "Heavy Revolver",
-      "KillsForNext": 15
+      "KillsForNext": 5
     },
     {
       "Weapon": "WEAPON_HEAVYSNIPER_mk2",
@@ -99,7 +99,7 @@
     {
       "Weapon": "WEAPON_REVOLVER",
       "Name": "Heavy Revolver",
-      "KillsForNext": 15
+      "KillsForNext": 5
     },
     {
       "Weapon": "WEAPON_HEAVYSNIPER_mk2",
