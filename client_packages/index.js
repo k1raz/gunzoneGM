@@ -12,7 +12,8 @@ const toLoad = [
     "scripts/gameArea",
     "scripts/fly",
     "scripts/nameTags",
-    "scripts/customRegist"
+    "scripts/customRegist",
+    "scripts/controls"
 ];
 
 

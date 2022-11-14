@@ -3,7 +3,32 @@
     {
       "Weapon": "WEAPON_REVOLVER",
       "Name": "Heavy Revolver",
-      "KillsForNext": 3
+      "KillsForNext": 5
+    },
+    {
+      "Weapon": "WEAPON_REVOLVER",
+      "Name": "Heavy Revolver",
+      "KillsForNext": 5
+    },
+    {
+      "Weapon": "WEAPON_REVOLVER",
+      "Name": "Heavy Revolver",
+      "KillsForNext": 5
+    },
+    {
+      "Weapon": "WEAPON_REVOLVER",
+      "Name": "Heavy Revolver",
+      "KillsForNext": 5
+    },
+    {
+      "Weapon": "WEAPON_REVOLVER",
+      "Name": "Heavy Revolver",
+      "KillsForNext": 5
+    },
+    {
+      "Weapon": "WEAPON_REVOLVER",
+      "Name": "Heavy Revolver",
+      "KillsForNext": 5
     }
   ]
 ]

@@ -3,6 +3,7 @@ const game = require("../classes/game");
 mp.events.add("playerSpawn", (player) => {
     player.sendsSpawnPos = false;
     player.health = 100;
+    // player.armour = 50;
     player.removeAllWeapons();
 
     if (player.respawnTimer) {
