@@ -1,3 +1,4 @@
+
 const timerBarLib = require("./lib/timerbars");
 
 function formatTime(time) {

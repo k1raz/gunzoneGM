@@ -1,3 +1,4 @@
+
 mp.events.add('outgoingDamage', (sourceEntity, targetEntity, sourcePlayer, weapon, boneIndex, damage) => {
 
     // revolver

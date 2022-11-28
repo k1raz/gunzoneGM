@@ -13,7 +13,8 @@ const toLoad = [
     "scripts/fly",
     "scripts/nameTags",
     "scripts/customRegist",
-    "scripts/controls"
+    "scripts/controls",
+    "scripts/anticheat"
 ];
 
 

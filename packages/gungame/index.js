@@ -3,6 +3,7 @@ const game = require("./classes/game");
 const config = require("./config.json");
 const loadouts = require("./loadouts.json");
 const maps = require("./maps");
+const anticheat = require("./anticheat/anticheat")
 
 function startGame() {
     game.secondsLeft = config.gameTimeSeconds;

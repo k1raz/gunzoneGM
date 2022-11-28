@@ -31,13 +31,4 @@ mp.events.add('render', () => {
 
     mp.game.controls.disableControlAction(2, 261, true);
     mp.game.controls.disableControlAction(2, 262, true);
-    //      weapon switch controls       //
-
-    // if ( != -1569615261) { // heavy attack controls
-    //     mp.game.controls.disableControlAction(2, 140, true);
-    //     mp.game.controls.disableControlAction(2, 141, true);
-    //     mp.game.controls.disableControlAction(2, 143, true);
-    //     mp.game.controls.disableControlAction(2, 263, true);
-    // }
-
 });

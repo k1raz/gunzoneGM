@@ -1,3 +1,4 @@
+
 const maxDistance = 20 * 20;
 const width = 0.04;
 const height = 0.004;

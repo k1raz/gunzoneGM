@@ -1,3 +1,4 @@
+
 let areaData = null;
 let gameArea = null;
 let areaBlip = -1;

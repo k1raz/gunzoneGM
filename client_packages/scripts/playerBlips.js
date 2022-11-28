@@ -1,3 +1,4 @@
+
 mp.events.add("entityStreamIn", (entity) => {
     if (entity.type === "player") {
         if (entity.blip === 0) entity.createBlip(1);

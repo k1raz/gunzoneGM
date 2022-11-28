@@ -39,13 +39,8 @@ mp.events.add("playerDeath", (player, reason, killer) => {
     }
 });
 
-// const spawnPoint = game.map.SpawnPoints[ Math.floor(Math.random() * game.map.SpawnPoints.length) ];
-// player.spawn(spawnPoint);
-// player.heading = spawnPoint.a;
-
 
 mp.events.add("spawnPlayerAt", (player) => {
-    //if (player.sendsSpawnPos) player.spawn(new mp.Vector3(-1126.1, 4952.7, 220.23))
     const spawnPoint = game.map.SpawnPoints[ Math.floor(Math.random() * game.map.SpawnPoints.length) ];
     player.spawn(spawnPoint);
     player.heading = spawnPoint.a;

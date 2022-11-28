@@ -36,15 +36,7 @@ mp.events.add("setGameArea", (json) => {
     areaData = JSON.parse(json);
 });
 
-/*mp.events.add("makeSpawn", () => {
-    let offset = getRandomXY(areaData.radius * 0.8);
-    //let position = mp.game.pathfind.getSafeCoordForPed(areaData.x + offset.x, areaData.y + offset.y, areaData.z, false, new mp.Vector3(), 16);
-
-    mp.events.callRemote("spawnPlayerAt", JSON.stringify(position));
-});*/
 
 mp.events.add("makeSpawn", () => {
-    //let position = mp.game.pathfind.getSafeCoordForPed(-1126.1, 4952.7, 191.9, true, 16);
-
     mp.events.callRemote("spawnPlayerAt");
 })
